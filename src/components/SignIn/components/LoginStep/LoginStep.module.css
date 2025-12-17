@@ -1,0 +1,35 @@
+.loginStep {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	width: 100%;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: #1f2937;
+	margin: 0;
+	line-height: 1.4;
+}
+
+.logo {
+	margin-bottom: 8px;
+}
+
+.formItem {
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+}
+
+.submitButton {
+	margin-top: 8px;
+	height: 44px;
+	font-weight: 500;
+}

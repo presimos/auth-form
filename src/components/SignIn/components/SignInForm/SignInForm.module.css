@@ -1,0 +1,26 @@
+.form {
+	padding: 32px;
+	background-color: #ffffff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	border-radius: 12px;
+	max-width: 440px;
+	position: relative;
+}
+.title {
+	text-align: center;
+	color: #000000;
+	font-weight: 600;
+	font-size: 24px;
+	font-family: 'Inter', sans-serif;
+
+}
+
+.backButton {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}

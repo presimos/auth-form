@@ -1,0 +1,44 @@
+.verifyCodeStep {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.verifyCodeStep input {
+	height: 60px;
+}
+
+
+
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: #1f2937;
+	margin: 0;
+	line-height: 1.4;
+}
+
+.text {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	color: #1f2937;
+	margin: 0;
+	line-height: 1.4;
+	white-space: pre-line;
+}
+
+.backButton {
+	margin-top: 8px;
+	padding: 0;
+}
+
+.submitButton {
+	margin-top: 8px;
+	height: 44px;
+	font-weight: 500;
+}

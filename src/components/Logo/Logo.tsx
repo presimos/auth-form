@@ -1,0 +1,22 @@
+import styles from './Logo.module.css'
+
+export const Logo = () => {
+	return (
+		<div className={styles.logo}>
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				className={styles.icon}
+			>
+				<path
+					d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6Z"
+					fill="#1677FF"
+				/>
+			</svg>
+			<span className={styles.title}>Company</span>
+		</div>
+	)
+}
